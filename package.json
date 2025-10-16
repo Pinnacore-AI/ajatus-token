@@ -1,0 +1,23 @@
+{
+  "name": "ajatus-token",
+  "version": "0.1.0",
+  "description": "The AJT token and blockchain integration for Ajatuskumppani",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^6.8.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.0",
+    "chai": "^4.3.0"
+  },
+  "private": true
+}
+
